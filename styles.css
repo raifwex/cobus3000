@@ -3,8 +3,13 @@ html {
 }
 body {
   max-width: 50em;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1em;
 }
 img, video {
   display: block;
   margin-top: 1em;
+  max-width: 100%;
 }
